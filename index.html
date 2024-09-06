@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Tania Jacqueline Vega Rodríguez">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Jacqueline Vega | Estudiante M.C.I.MC y docente</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/foto.jpeg" alt="Foto de Jane Doe">
+        <h1>Hola, soy Tania Jacqueline Vega Rodríguez</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/logo.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Jacqueline Vega</h2>
+        <p class="seccion-texto">Soy una persona pro-activa, con deseos de superación y tengo como meta la estabilidad y continuo crecimiento laboral. Tengo gran capacidad de aprendizaje y dotes que me permiten adaptarme a diversos estilos de trabajo. Me gusta aprender cosas nuevas, por lo cual he decidido darle un enfoque a mi carrera más orientado a aplicarla en la docencia, investigación y mejoras en sistemas productivos así como la automatización de los mismos.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <img class="imagen" src="imagenes/exp.png" alt="">
+            <p class="experiencia-titulo">Experiencia profesional</p>
+            <ul class="lista">
+              <li>Docente - Instituto Universitario del Centro de México</li>
+              <li>Auxiliar de metrología - Metalistik</li>
+              <li>Estudiante investigador - Laboratorio de Iluminación Artificial</li>
+              <li>Técnico de mantenimiento - Mabuchi Motor</li>
+              <li>Asistente de presidencia - Mabuchi Motor</li>
+              <li>Asistente de gerencia de planta - Mabuchi Motor</li>
+              <li>Capturista de producción - Mabuchi Motor</li>
+            </ul>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Docencia</span>
+              <span class="badge text-bg-primary">Calidad</span>
+              <span class="badge text-bg-primary">Investigación</span>
+              <span class="badge text-bg-primary">Mantenimiento</span>
+              <span class="badge text-bg-primary">Administración</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <img class="imagen" src="imagenes/cursos.png" alt="">
+            <p class="experiencia-titulo">Cursos, certificaciones y logros académicos</p>
+            <ul class="lista">
+              <li>Voxy Proficiency Achievement Certificate - High Intermediate</li>
+              <li>Mención honorífica en la tesis de licenciatura "Comparación de Métodos en la Detección de Contaminantes por Medio de Radiación Artificial Multiespectral Tipo LED Enfocado al Sector Agroindustrial"</li>
+              <li>Beca "Dare2Innovate" de Lean Analytics</li>
+              <li>Beneficiaria del "Fondo de Innovación Tecnológica 2022" del INCyTEA</li>
+              <li>Taller "Mujer emprende con éxito" de la Secretaria de Capacitación para el Trabajo</li>
+              <li>Curso "Electronica Básica" de Udemy</li>
+              <li>Curso "Desarrollo Web Front-End" de Tecnolochicas </li>
+            </ul>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Idiomas</span>
+              <span class="badge text-bg-primary">Investigación</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <img class="imagen" src="imagenes/edu.png" alt="">
+            <p class="experiencia-titulo">Educación</p>
+            <ul class="lista">
+              <li>Maestría en Ciencias de la Ingeniería Mecatrónica - TecNM Plantel Pabellón de Arteaga</li>
+              <li>Ingeniería Industrial / Especialidad en Manufactura y Calidad  - TecNM Plantel Pabellón de Arteaga</li>
+              <li>Técnico en Programación de Aplicaciones Web y Móviles - CECyTEA Plantel Pabellón de Arteaga</li>
+            </ul>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">M.C.I.MC</span>
+              <span class="badge text-bg-primary">IIND</span>
+              <span class="badge text-bg-primary">Tec. Prog.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.jpg" alt="Arduino + ESP32">
+              <div class="overlay">
+                <p>Automatización con ESP32</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Jacquelinevrr/ESP32-automation" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Arduino + Java">
+              <div class="overlay">
+                <p>Intensidad de un LED Arduino + Java MVC</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Jacquelinevrr/Java-MVC" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyectoed.png" alt="HTML + CSS">
+              <div class="overlay">
+                <p>Mi artista favorito</p>
+                <div class="iconos-contenedor">
+                  <a href="https://jacquelinevrr.github.io/Ed-Sheeran/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3clon.png" alt="HTML + CSS">
+              <div class="overlay">
+                <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://jacquelinevrr.github.io/Clon-de-Google-Gatito/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyectodare.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Propuesta Dare2Innovate</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Jacquelinevrr/Dare2Innovate" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Jacquelinevrr" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-lg btn-primary" disabled>
+          Visita mi repositorio de GitHub
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de las personas que me conocen.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/benito.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">Tania Jacqueline ha demostrado ser una estudiante   ejemplar tanto en las aulas como en la parte práctica, innovando en los problemas a los que se enfrenta con métodos y técnicas que facilitan la toma de decisiones.  Además de tener iniciativa en resolver problemas que se presentan en la vida cotidiana así como en la industria. Estoy seguro que Tania Jacqueline puede resolver cualquier problema que se le presente de manera eficiente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Benito Rodríguez</p>
+                <p class="cargo">Docente del TecNM Plantel Pabellón de Arteaga</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Atenas_Franco.png" alt="Foto de Nora">
+              <p class="testimonio-texto">Jacqueline ha demostrado ser una estudiante excepcional, destacándose por su dedicación, compromiso y actitud positiva hacia el aprendizaje. Siempre está dispuesta a enfrentar nuevos desafíos con entusiasmo y perseverancia, lo que la convierte en un ejemplo a seguir para sus compañeros.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Atenas Franco</p>
+                <p class="cargo">Instructora en Tecnolochicas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/margarita.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Jacqueline ha sobresalido no solo en el aprendizaje de conceptos fundamentales en Sistemas computacionales, sino también en la aplicación práctica de estos conocimientos. Su capacidad para abordar problemas de manera innovadora y eficiente es realmente admirable, demostrando no solo sus habilidades técnicas, sino también su capacidad para trabajar en equipo y liderar a sus compañeros hacia el éxito.
+               </p>
+              <div class="testimonio-info">
+                <p class="cliente">Margarita Estrada Rodríguez</p>
+                <p class="cargo">Embajadora en Chicas en Tecnología</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Si te interesan mis servicios profesionales para tu empresa, contáctame, podemos agendar una entrevista.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:jacquelinevrdz@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://x.com/jacque_chan08" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path class="i" d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/Jacquelinevrr" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/TJacquelineVR/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/jacquelinevrdz/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="jacquelinevrdz@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Tania Jacqueline Vega Rodríguez (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
