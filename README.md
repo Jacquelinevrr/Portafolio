@@ -10,23 +10,28 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 Primera parte de la página web:
 
-![Primera parte de la página web](imagenes/screenshot1.png)
+![Captura de pantalla 2024-09-06 092118](https://github.com/user-attachments/assets/08811c02-1506-45ad-bc00-abf23382e4af)
+
 
 Experiencia:
 
-![Experiencia](imagenes/screenshot2.png)
+![Captura de pantalla 2024-09-06 092134](https://github.com/user-attachments/assets/1df5b0d8-63d1-4188-a4fa-06ec9019f3c1)
+
 
 Proyectos:
 
-![Proyectos](imagenes/screenshot3.png)
+![Captura de pantalla 2024-09-06 092202](https://github.com/user-attachments/assets/78744a36-2667-4708-8c97-6739eee2d59f)
+
 
 Testimonios:
 
-![Testimonios](imagenes/screenshot4.png)
+![Captura de pantalla 2024-09-06 092216](https://github.com/user-attachments/assets/f1d3fe6d-10fe-4030-9c1b-9163738cb3cd)
+
 
 Contacto:
 
-![Contacto](imagenes/screenshot5.png)
+![Captura de pantalla 2024-09-06 092230](https://github.com/user-attachments/assets/aca69c1d-1034-4e93-86df-6a21f9f904ca)
+
 
 ## Tecnologías
 
